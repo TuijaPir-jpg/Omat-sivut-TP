@@ -1,4 +1,6 @@
 body{
+margin: 0;
+height: 100vh; 
 background-image: url(texture.jpg);
 background-size: cover;
 background-repeat: no-repeat;
@@ -24,6 +26,16 @@ color: black;
 font-size: 26px;
 text-align: center;
 font-weight: bold;
+
+  text-align: center; 
+  margin-top: 50px;
+
+  display: center;
+  background-color:rgb(255, 192, 250);
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  border: 2px solid #rgb(214, 110, 206);    
+
 }
 
 a{
@@ -34,12 +46,6 @@ font-size: 26px;
 font-weight: bold;
 }
 
-img {
-    width: 300px;
-      height: 300px;
-      border-radius: 50%;
-      object-fit: cover;      
-      display: block;
-      margin: 20px auto; }
+
 
 footer{text-align: center;}
